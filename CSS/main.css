@@ -6,7 +6,7 @@ header{
 header .container {
     min-height:100vh;
     padding-bottom: 3em;
-    background-image: url('http://i288.photobucket.com/albums/ll179/agarwalshruti988/iphone5_perfect_zpsbzl2fi6b.png');
+    background-image: url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/iphone5_perfect_zpsbzl2fi6b.png");
     background-repeat: no-repeat;
     background-position: 135px 70vh;
 }
@@ -47,61 +47,94 @@ header .hero  a {
      width:100%;
     height:100vh;
     background-color:#F4F4F4;
+    background-image:url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/ipad_flat_perfect_zpsf70uonyw.png");
+    background-repeat: no-repeat;
+    background-position: 100vh 30vh;
+     text-align:left;
+    
 }
 #content1_heading{
-    padding-top:20vh;
+    padding-top:30vh;
+     padding-bottom:4vh;
 }
 .p1{
-    padding-top:1em;
+    
+    padding-left:0px;
+    padding-right:30em;
+    padding-bottom:4vh;
 }
 .p2{
-    padding-bottom:4em;
-    padding-top:1em;
+    padding-bottom:0em;
+    padding-top:0em;
+    padding-right:30em;
+    border-left:4px solid #6AC9B5;
+    padding-left:1em;
+    
 }
-#button_say_hello{
-     padding:1em 1em;
-    color: #6AC9B5;
+.button{
+    padding-top:4vh;
+    padding:1em 1em;
+    color: #F4F4F4;
     border:1px solid #6AC9B5;
     width:11em;
+    background-image: url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/aboutme-button_icon_zpskz7rnavf.png");
+    background-position: 7.5em 15px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: left;
 }
-#content_ipad{
-    padding-top:25vh;
-    padding-left:25vh;
-}
-.content2{
-     width:100%;
-    height:100vh;
+
+.content2 .container{
+     min-height:100vh;
+    background-image: url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/devices_zpstjzg5lfw.png");
+    background-repeat: no-repeat;
+    background-position:bottom left;
     background-color:#FFFFFF;
+    text-align:right;
 }
 #content2_heading1{
     padding-top:10vh;
 }
-#button_dribble{
-     padding:1em 1em 1em 1em;
-    color: #EA4C89;
-    border:1px solid #EA4C89;
-    width:13em;
+.content2 .container a {
+    padding: 1em 1em;
+    color: white;
+    border: 1px solid  #EA4C89;
+    width: 13em;
+    background-image: url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/dribbble-button_icon_zpscjkaezar.png");
+    background-position: 11em 1.2em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: left;
+}
+.p1_1{
+    padding-left:35em;
+    padding-right:0px;
+    padding-top:1em;
 }
 .p2_2{
     padding-bottom:3em;
     padding-top:1em;
+    padding-left:35em;
 }
-#gadgets{
-    padding-top:53vh;
-    float:bottom;
-}
+
 .like{
     text-align:center;
     width:100%;
     height:50vh;
     background-color:#1BCAB4;
 }
-#button_beer{
-    padding:1em 1em;
+.like a{
+     padding: 1em 1em;
     color: white;
-    border:1px solid #F6FCFA;
-    width:14em;   
+    border: 1px solid #F6FCFA;
+    width: 14em;
+    background-image: url("http://i288.photobucket.com/albums/ll179/agarwalshruti988/button_beer-icon_zpspiy2fojw.png");
+    background-position: 11em 1.1em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: left;
 }
+
 .subscribe{
     width:100%;
     height:80vh;
@@ -120,7 +153,7 @@ header .hero  a {
     margin-right:-7em;
     
 }
-.footer{
+footer{
     width:100%;
     height:20vh;
     background-color:#FFFFFF;
